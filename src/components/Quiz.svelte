@@ -138,7 +138,7 @@
         }
     }
 </style>
-<h3>Test Creació i posada en marxa d'una empresa</h3>
+<h3 style="width:auto;">Test Creació i posada en marxa d'una empresa</h3>
 {#each $quiz as question, questionIndex}
     {#if $currentQuestionIndex === questionIndex}
         <form
