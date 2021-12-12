@@ -25,8 +25,8 @@ export const trivia = {
     },
 
     {
-      q: "Vas a començar un negoci de venda a l'engròs de cereals, on ubicaries les instalacions?",
-      a: ["En un polígon industrial proper a una autovia", 
+      q: "Vas a començar un negoci de venda a l'engròs de cereals, on ubicaries les instal·lacions?",
+      a: ["En un polígon industrial prop a una autovia", 
       "A un local cèntric pel que transiten moltes persones",
        "A un centre comercial amb gran concentració de comerços"],
     },
@@ -70,7 +70,7 @@ export const trivia = {
       q: "Els tràmits legals de constitució",
       a: ["Són obligatòris solament per a les societats", 
       "Són obligatòris per a tot el col·lectiu empresarial, tant persones físiques com jurídiques",
-       "Sçon opcionals per a tots"],
+       "Són opcionals per a tots"],
     },
     {
       q: "La raó social d'una societat és:",

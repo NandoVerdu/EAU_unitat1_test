@@ -866,8 +866,8 @@ var app = (function () {
         },
 
         {
-          q: "Vas a començar un negoci de venda a l'engròs de cereals, on ubicaries les instalacions?",
-          a: ["En un polígon industrial proper a una autovia", 
+          q: "Vas a començar un negoci de venda a l'engròs de cereals, on ubicaries les instal·lacions?",
+          a: ["En un polígon industrial prop a una autovia", 
           "A un local cèntric pel que transiten moltes persones",
            "A un centre comercial amb gran concentració de comerços"],
         },
@@ -911,7 +911,7 @@ var app = (function () {
           q: "Els tràmits legals de constitució",
           a: ["Són obligatòris solament per a les societats", 
           "Són obligatòris per a tot el col·lectiu empresarial, tant persones físiques com jurídiques",
-           "Sçon opcionals per a tots"],
+           "Són opcionals per a tots"],
         },
         {
           q: "La raó social d'una societat és:",
@@ -1054,10 +1054,10 @@ var app = (function () {
     			if_block.c();
     			t3 = space();
     			attr_dev(legend, "class", "svelte-ous5hl");
-    			add_location(legend, file, 148, 16, 3594);
+    			add_location(legend, file, 148, 16, 3647);
     			attr_dev(fieldset, "class", "svelte-ous5hl");
-    			add_location(fieldset, file, 147, 12, 3566);
-    			add_location(form, file, 143, 8, 3387);
+    			add_location(fieldset, file, 147, 12, 3619);
+    			add_location(form, file, 143, 8, 3440);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, form, anchor);
@@ -1188,12 +1188,12 @@ var app = (function () {
     			attr_dev(input, "name", input_name_value = "question" + /*questionIndex*/ ctx[9]);
     			attr_dev(input, "class", "svelte-ous5hl");
     			/*$$binding_groups*/ ctx[5][0].push(input);
-    			add_location(input, file, 151, 24, 3776);
+    			add_location(input, file, 151, 24, 3829);
     			attr_dev(span, "class", "radio svelte-ous5hl");
-    			add_location(span, file, 159, 24, 4157);
+    			add_location(span, file, 159, 24, 4210);
     			attr_dev(label, "for", label_for_value = "answer" + /*answerIndex*/ ctx[12]);
     			attr_dev(label, "class", "svelte-ous5hl");
-    			add_location(label, file, 150, 20, 3717);
+    			add_location(label, file, 150, 20, 3770);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, label, anchor);
@@ -1250,7 +1250,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Comproba";
     			attr_dev(button, "type", "submit");
-    			add_location(button, file, 167, 16, 4415);
+    			add_location(button, file, 167, 16, 4468);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1280,7 +1280,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Avança";
     			attr_dev(button, "type", "submit");
-    			add_location(button, file, 165, 16, 4339);
+    			add_location(button, file, 165, 16, 4392);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1368,6 +1368,8 @@ var app = (function () {
     }
 
     function create_fragment(ctx) {
+    	let h3;
+    	let t1;
     	let each_1_anchor;
     	let current;
     	let each_value = /*$quiz*/ ctx[1];
@@ -1384,16 +1386,24 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
+    			h3 = element("h3");
+    			h3.textContent = "Test Creació i posada en marxa d'una empresa";
+    			t1 = space();
+
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
     			each_1_anchor = empty();
+    			add_location(h3, file, 140, 0, 3284);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
+    			insert_dev(target, h3, anchor);
+    			insert_dev(target, t1, anchor);
+
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(target, anchor);
     			}
@@ -1449,6 +1459,8 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h3);
+    			if (detaching) detach_dev(t1);
     			destroy_each(each_blocks, detaching);
     			if (detaching) detach_dev(each_1_anchor);
     		}
@@ -1617,18 +1629,18 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Start";
     			attr_dev(h1, "class", "svelte-u1obmh");
-    			add_location(h1, file$1, 36, 4, 753);
+    			add_location(h1, file$1, 36, 8, 757);
     			attr_dev(input, "type", "number");
     			attr_dev(input, "max", /*$maxNumberOfQuestions*/ ctx[1]);
     			attr_dev(input, "min", "1");
     			input.required = true;
     			attr_dev(input, "class", "svelte-u1obmh");
-    			add_location(input, file$1, 40, 12, 896);
+    			add_location(input, file$1, 40, 12, 900);
     			attr_dev(label, "class", "svelte-u1obmh");
-    			add_location(label, file$1, 38, 8, 834);
+    			add_location(label, file$1, 38, 8, 838);
     			attr_dev(button, "type", "submit");
-    			add_location(button, file$1, 47, 8, 1109);
-    			add_location(form, file$1, 37, 4, 782);
+    			add_location(button, file$1, 47, 8, 1113);
+    			add_location(form, file$1, 37, 4, 786);
     			add_location(div, file$1, 33, 0, 648);
     		},
     		l: function claim(nodes) {
