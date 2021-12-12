@@ -1054,10 +1054,10 @@ var app = (function () {
     			if_block.c();
     			t3 = space();
     			attr_dev(legend, "class", "svelte-ous5hl");
-    			add_location(legend, file, 148, 16, 3666);
+    			add_location(legend, file, 148, 16, 3678);
     			attr_dev(fieldset, "class", "svelte-ous5hl");
-    			add_location(fieldset, file, 147, 12, 3638);
-    			add_location(form, file, 143, 8, 3459);
+    			add_location(fieldset, file, 147, 12, 3650);
+    			add_location(form, file, 143, 8, 3471);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, form, anchor);
@@ -1188,12 +1188,12 @@ var app = (function () {
     			attr_dev(input, "name", input_name_value = "question" + /*questionIndex*/ ctx[9]);
     			attr_dev(input, "class", "svelte-ous5hl");
     			/*$$binding_groups*/ ctx[5][0].push(input);
-    			add_location(input, file, 151, 24, 3848);
+    			add_location(input, file, 151, 24, 3860);
     			attr_dev(span, "class", "radio svelte-ous5hl");
-    			add_location(span, file, 159, 24, 4229);
+    			add_location(span, file, 159, 24, 4241);
     			attr_dev(label, "for", label_for_value = "answer" + /*answerIndex*/ ctx[12]);
     			attr_dev(label, "class", "svelte-ous5hl");
-    			add_location(label, file, 150, 20, 3789);
+    			add_location(label, file, 150, 20, 3801);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, label, anchor);
@@ -1250,7 +1250,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Comproba";
     			attr_dev(button, "type", "submit");
-    			add_location(button, file, 167, 16, 4487);
+    			add_location(button, file, 167, 16, 4499);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1280,7 +1280,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Avança";
     			attr_dev(button, "type", "submit");
-    			add_location(button, file, 165, 16, 4411);
+    			add_location(button, file, 165, 16, 4423);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1396,6 +1396,7 @@ var app = (function () {
 
     			each_1_anchor = empty();
     			set_style(h3, "width", "75%");
+    			set_style(h3, "color", "black");
     			add_location(h3, file, 140, 0, 3284);
     		},
     		l: function claim(nodes) {
