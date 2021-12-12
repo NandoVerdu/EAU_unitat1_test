@@ -1,5 +1,5 @@
 export const trivia = {
-  title: "Magnum, P.I. Trivia",
+  title: "Creació i posada en marxa de la empresa",
   questions:
   [
     {

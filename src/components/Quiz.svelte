@@ -163,9 +163,9 @@
             </fieldset>
 
             {#if $currentQuestionIndex < $quiz.length - 1}
-                <button type="submit">Next Question</button>
+                <button type="submit">Avança</button>
             {:else}
-                <button type="submit">Submit Answers</button>
+                <button type="submit">Comproba</button>
             {/if}
         </form>
     {/if}

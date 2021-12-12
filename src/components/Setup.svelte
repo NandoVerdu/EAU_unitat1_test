@@ -37,7 +37,7 @@
     <h1>Welcome to {$quizTitle}!</h1>
     <form on:submit|preventDefault={onSubmit}>
         <label>
-            How many questions would you like?
+            Tria el nombre de qüestions
             <input
                 type="number"
                 bind:value={$numberOfQuestions}
