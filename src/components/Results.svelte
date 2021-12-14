@@ -96,10 +96,10 @@
 <div
   in:fly={{ y: 200, duration: 500, delay: 500 }}
   out:fly={{ y: -200, duration: 500 }}>
-  <h1>Results</h1>
+  <h1>Resultats</h1>
 
   <div>
-    <p class="final-score">Final Score: {percentage}%</p>
+    <p class="final-score">Puntuació: {percentage}%</p>
     <div class="score-scale">
       <div
         class="score-bar"
