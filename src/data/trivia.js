@@ -1,10 +1,10 @@
 export const trivia = {
-  title: "Creació i posada en marxa de la empresa",
+  title: "Creació i posada en marxa de la empresa 2022",
   questions:
   [
     {
-      q: "En una idea de negoci, la diferenciació consisteix en:",
-      a: ["Oferir una millora susbtancial en la manera de satisfer a la clientela","Inventar alguna cosa novedosa", "Oferir diversos productes encara que no siguen útils"],
+      q: "Quins factors influeixen en la decisió d'ubicació de l'empresa?",
+      a: ["Totes són correctes","Zona comercial, afluència de possibles clients i nivell de renda","Accés fàcil a mitjans de comunicació i transport, condicions d'accés i aparcament de vehicles i imatge comercial de la zona"],
     },
     {
       q: "En una societat anònima:",
@@ -51,14 +51,14 @@ export const trivia = {
     {
       q: "La propietària del local que hem llogat per a oficina es la nostra:",
       a: ["Acreedora", 
-      "Proveedora",
+      "Proveïdora",
        "Deudora"],
     },
     {
       q: "Per la propietat del camió de transport, l'empresa ha de tributar cada any per:",
       a: ["IVTM", 
       "IVA",
-       "IVA"],
+       "IS"],
     },
     {
       q: "Són tributs locals",
@@ -95,6 +95,38 @@ export const trivia = {
           a: ["Amb resposabilitat il·limitada",
             "Amb responsabilitat limitada", 
           "Respon amb el seu patrimoni personal solament fins a un límit prèviament establert"],
+          },
+          {
+            q: "Qué és el capital social?",
+            a:["Aportació que fan els socis per a la constitució de la societat", "És el benefici que obté l'empresa a final d'exercici comptable","És la remuneració que obtenen els treballadors"],
+          },
+          {
+            q: "Les fases de creació d'una empresa són:",
+            a:["Definició del producte, Elecció de la forma jurídica, Determinació de la situació patrimonial, Tràmits de constitució, Contractació de serveis bàsics","Llibre diari, Llibre major, Balanç de situació i Liquidació de l'IVA","Ninguna és correcta"]
+          },
+          {
+            q: "Quina no és una qualitat de l'empresari",
+            a:["Incapacitat per a assumir riscos", "Confiança en u mateix","Caràcter negociador, iniciativa, lideratge i dots comunicatives"]
+          },
+          {
+            q:"Marca l'afirmació correcta",
+            a:["Si es tracta d'un empresari individual, la personalitat jurídica de l'empresa és la mateixa que la del seu titular","Si es tracta d'una societat, la seua constitució no li otorga personalitat jurídica"]
+          },
+          {
+            q:"És una contractació de serveis bàsics",
+            a:["Contracte de lloguer del local comercial, contracte de subministrament de llum o contracte d'abertura de compte corrent","Contractació de treballadors","Contractació de l'empresa de logística integral"]
+          },
+          {
+            q: "Quin capital mínim és necessari per a constituir una Societat Anònima?",
+            a:["60.000 euros","No hi ha mínim inicial", "3.000 euros"]
+          },
+          {
+            q:"El capital social mínim per a constituir una Societat Limitada és:",
+            a:["3.000 euros","12.000 euros" ,"60.000 euros"],
+          },
+          {
+            q:"Quins requisits ha de complir un negoci al crear-se per a tenir èxit?",
+            a: ["Generar necessitat del client, diferenciar-se i aprofitar les oportunitats de mercat", "Generar necessitat del client, diferenciar-se i triar un bon nom per a l'empresa","Determinar l'import de capital social, decidir la forma jurídica i triar un nom per a l'empresa"],
           },
   ]
 }
