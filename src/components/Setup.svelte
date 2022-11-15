@@ -45,6 +45,6 @@
                 min="1"
                 required />
         </label>
-        <button type="submit">Start</button>
+        <button type="submit">Comença!</button>
     </form>
 </div>

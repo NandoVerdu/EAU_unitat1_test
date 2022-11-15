@@ -8,7 +8,7 @@
 <style>
 	:global(body) {
 		background: rgb(39,116,174);
-    background: linear-gradient(-35deg, rgba(39,116,174,1) 0%, rgba(1,66,106,1) 100%) no-repeat center center fixed;
+    	background: linear-gradient(-35deg, rgba(39,116,174,1) 0%, rgba(1,66,106,1) 100%) no-repeat center center fixed;
 		background-size: cover;
 		color: #FFFFFF;
 		font-family: "Poppins", sans-serif;
@@ -41,7 +41,7 @@
 		max-width: 600px;
 		text-align: center;
 	}
-	@media only screen and (max-width: 600px) {
+	@media only screen and (width: 1000px) {
 		main {
 			font-size: 24px;
 		}
